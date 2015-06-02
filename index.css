@@ -1,0 +1,21 @@
+
+/**
+ * Elevio logo.
+ */
+
+.logo[data-logo="Elevio"] {
+  width: 0;
+}
+
+.logo[data-logo="Elevio"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Elevio"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Elevio"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
